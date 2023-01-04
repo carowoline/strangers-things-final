@@ -1,0 +1,55 @@
+.page {
+    max-width: 100%;
+    width: 100%
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.raccoon {
+    height: auto;
+    width: 10%;
+    padding-bottom: 1em;
+}
+
+.username {
+    margin-bottom: 0.5em;
+}
+
+.password {
+    padding-right: -1px;
+}
+
+input {
+    width: 16em;
+    max-width: 20em;
+    height: 2.5em;
+    padding-top: 0.5em;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.button {
+    max-width: 50%;
+    width: 8%;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 2em;
+    background-color: white;
+    font-size: 0.7em;
+}
+
+.button:hover {
+    color: white;
+    background-color: #e85759;
+    cursor: pointer;
+}

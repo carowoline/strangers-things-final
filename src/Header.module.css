@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    max-height: 10vh;
+    width: 100vw;
+    border-bottom: 6px groove #67963c;
+    padding-top: 1%;
+    background-color: #ee8741;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2em;
+    padding-right: 10em;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+    padding-left: 1em;
+    border-radius: 50px;
+}
+
+.link {
+    font-size: 1.5em;
+    padding-left: 2em;
+}
+
+.li {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+}
+
+.li:hover {
+    color: black;
+    font-weight: bold;
+}

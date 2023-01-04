@@ -1,0 +1,49 @@
+.container {
+    width: 75%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border: 6px solid #a6d080;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    background-color: #67963c;
+    color: white;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.3em;
+    padding: 0.2em 1em;
+    background-color: #ee8741;
+    border-radius: 50px;
+    margin-bottom: 0.3em;
+}
+
+.info {
+    font-size: 1.3em;
+    padding: 0.2em;
+}
+
+.postButton {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 0.2em 1em;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.postButton:hover {
+    color: white;
+    background-color: #e85759;
+    cursor: pointer;
+}
+
+.dog {
+    max-height: auto;
+    max-width: 8%;
+}
